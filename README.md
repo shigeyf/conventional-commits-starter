@@ -24,3 +24,9 @@ Please see more details about your customizations for the tools at:
 - [changelog.config.js](https://github.com/streamich/git-cz#custom-config)
 - [commitlint.config.js](https://commitlint.js.org/#/reference-configuration)
 - [lint-staged.config.js](https://github.com/okonet/lint-staged#configuration)
+
+## Licenses
+
+This template repository is based on the Apache 2.0 LICENSE.
+
+Please remove the LICENSE file and add your proper LICENSE file to conform for your new project generated with this template repository.
