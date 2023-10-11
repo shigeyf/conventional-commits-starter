@@ -13,7 +13,7 @@
 const config = {
   // Formatting
   // [JSON]
-  '**/*.{json}': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
+  '**/*.json': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
   // [YAML]
   '**/*.{yaml,yml}': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
   // [Markdown]
