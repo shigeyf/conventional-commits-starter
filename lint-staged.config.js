@@ -6,13 +6,12 @@ const path = require('path');
 
 /** @type {import("lint-staged").configObject} */
 const config = {
-  // Formatting
   // [JSON]
-  '**/*.json': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
+  '**/*.json': (filenames) => filenames.map((filename) => `npm run prettier:lint-staged '${filename}'`),
   // [YAML]
-  '**/*.{yaml,yml}': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
+  '**/*.{yaml,yml}': (filenames) => filenames.map((filename) => `npm run prettier:lint-staged '${filename}'`),
   // [Markdown]
-  '**/*.{md,mdx}': (filenames) => filenames.map((filename) => `npm run format:lint-staged '${filename}'`),
+  '**/*.{md,mdx}': (filenames) => filenames.map((filename) => `npm run prettier:lint-staged '${filename}'`),
 
   // Uncomment if needed
   // [JS/TS/Vue]

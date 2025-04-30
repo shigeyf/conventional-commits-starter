@@ -11,9 +11,9 @@
   "scripts": {
     "prepare": "husky",
     "commit": "git-cz",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "format:lint-staged": "prettier --write"
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "prettier:lint-staged": "prettier --write"
   },
   "config": {
     "commitizen": {
