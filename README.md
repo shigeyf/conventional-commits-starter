@@ -2,7 +2,25 @@
 
 [Your project overview will be described in here].
 
-## For Conventinal Commits
+## Project Overview
+
+## Getting Started
+
+## License
+
+This repository is based on the [LICENSE].
+
+```text
+Please add an appropriate LICENSE file to conform for your new project generated with this template repository.
+```
+
+## Contributing
+
+---
+
+### Remove from here
+
+### Overview For Conventinal Commits Starter
 
 All required tools for conventional commits in this project development are added to the `package.json` in the root folder. The tools added are:
 
@@ -25,8 +43,10 @@ Please see more details about your customizations for the tools at:
 - [commitlint.config.js](https://commitlint.js.org/#/reference-configuration)
 - [lint-staged.config.js](https://github.com/okonet/lint-staged#configuration)
 
-## Licenses
+### License For Conventinal Commits Starter
 
 This template repository is based on the Apache 2.0 LICENSE.
 
-Please remove the LICENSE file and add your proper LICENSE file to conform for your new project generated with this template repository.
+### Remove until here
+
+---
